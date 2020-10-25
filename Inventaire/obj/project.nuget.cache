@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "dgSpecHash": "icZhqAb5qt0y7061giexcOc0nuYSaz0jAAw6PHmRlDgZPeyBfzo3HsP5jq5RiGjMWHRyry4JMFAqrgxjo8XqQg==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\Elise\\Documents\\DEV\\1- Projets\\Inventaire net5\\Inventaire\\Inventaire\\Inventaire.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Elise\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\5.0.0-preview.8.20414.8\\microsoft.aspnetcore.mvc.razor.runtimecompilation.5.0.0-preview.8.20414.8.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Le package Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation 5.0.0-preview.8.20414.8 n'est pas compatible avec net50 (.NETFramework,Version=v5.0). Le package Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation 5.0.0-preview.8.20414.8 prend en charge : net5.0 (.NETCoreApp,Version=v5.0)",
+      "libraryId": "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation",
+      "targetGraphs": [
+        ".NETFramework,Version=v5.0"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Le package Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation 5.0.0-preview.8.20414.8 n'est pas compatible avec net50 (.NETFramework,Version=v5.0) / win7-x86. Le package Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation 5.0.0-preview.8.20414.8 prend en charge : net5.0 (.NETCoreApp,Version=v5.0)",
+      "libraryId": "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation",
+      "targetGraphs": [
+        ".NETFramework,Version=v5.0/win7-x86"
+      ]
+    }
+  ]
+}

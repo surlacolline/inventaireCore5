@@ -1,0 +1,114 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v5.0": {
+      "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation/5.0.0-preview.8.20414.8": {
+        "type": "package"
+      }
+    },
+    ".NETFramework,Version=v5.0/win7-x86": {
+      "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation/5.0.0-preview.8.20414.8": {
+        "type": "package"
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation/5.0.0-preview.8.20414.8": {
+      "sha512": "UDzhjn0BykDhUTyzkgYE/Pye4HzvY6g9GM0dlKsk1f46x8s/oXZKqRRhAN6Fv8uC5zfyiTvYPtXFeL3Xit+7Kg==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.mvc.razor.runtimecompilation/5.0.0-preview.8.20414.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "build/net5.0/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.targets",
+        "buildTransitive/net5.0/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.targets",
+        "lib/net5.0/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll",
+        "lib/net5.0/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.xml",
+        "microsoft.aspnetcore.mvc.razor.runtimecompilation.5.0.0-preview.8.20414.8.nupkg.sha512",
+        "microsoft.aspnetcore.mvc.razor.runtimecompilation.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v5.0": [
+      "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation >= 5.0.0-preview.8.20414.8"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Elise\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Elise\\Documents\\DEV\\1- Projets\\Inventaire net5\\Inventaire\\Inventaire\\Inventaire.csproj",
+      "projectName": "Inventaire",
+      "projectPath": "C:\\Users\\Elise\\Documents\\DEV\\1- Projets\\Inventaire net5\\Inventaire\\Inventaire\\Inventaire.csproj",
+      "packagesPath": "C:\\Users\\Elise\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Elise\\Documents\\DEV\\1- Projets\\Inventaire net5\\Inventaire\\Inventaire\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Elise\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net50": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net50": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+            "target": "Package",
+            "version": "[5.0.0-preview.8.20414.8, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "win7-x86": {
+        "#import": []
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Le package Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation 5.0.0-preview.8.20414.8 n'est pas compatible avec net50 (.NETFramework,Version=v5.0). Le package Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation 5.0.0-preview.8.20414.8 prend en charge : net5.0 (.NETCoreApp,Version=v5.0)",
+      "libraryId": "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation",
+      "targetGraphs": [
+        ".NETFramework,Version=v5.0"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Le package Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation 5.0.0-preview.8.20414.8 n'est pas compatible avec net50 (.NETFramework,Version=v5.0) / win7-x86. Le package Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation 5.0.0-preview.8.20414.8 prend en charge : net5.0 (.NETCoreApp,Version=v5.0)",
+      "libraryId": "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation",
+      "targetGraphs": [
+        ".NETFramework,Version=v5.0/win7-x86"
+      ]
+    }
+  ]
+}
